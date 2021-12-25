@@ -30,7 +30,7 @@ class Messages
     /**
      * @ORM\Column(type="datetime_immutable")
      */
-    // private $created_at;
+    private $created_at;
 
     /**
      * @ORM\Column(type="boolean")
